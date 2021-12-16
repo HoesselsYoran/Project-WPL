@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, verdana, sans-serif;
+}
+
+body {
+    background-color: #2D2D2D;
+}
+
+header {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    background-color: #5765B7;
+    border: 2px solid #5765B7;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Opmaak Main */
+main {
+    position: absolute;
+    left: 26%;
+    top: auto;
+    margin: 0 auto;
+    width: 48%;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background-color: #4C8D9A;
+}
+
+main article#over_mij {
+    height: 100%;
+    border-bottom: 2px solid #1ac7ec;
+}
+
+main article#over_mij img {
+    position: relative;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+main article#over_mij h2{
+    position: relative;
+    padding: 15px 15px 0 15px;
+}
+main article#over_mij p{
+    position: relative;
+    padding: 15px 15px 15px 15px;
+}
+
+main article#hobbies {
+    height: 100%;
+    padding: 15px;
+}
+main article#hobbies p {
+    padding: 6px 0 6px 0px;
+}
+
+main article#hobbies ul {
+    padding: 10px 0 10px 21px;
+}
+
+/* Opmaak Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer nav {
+    padding: 16px;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+footer nav ul li{
+    margin: 10%;
+}
+footer nav ul li a {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-evenly;
+    background-color: #787FF6;
+    padding: 5%;
+    text-decoration: none;
+    color: #D5D7FF;
+    border-radius: 15px;
+    width: 200px;
+}
+@media screen and (max-width: 1100px){
+    footer{
+        left: 0;
+    }
+    footer nav ul li a {
+        width: 75px;
+    }
+}
+footer nav ul li a:hover {
+    background-color: #D5D7FF;
+    text-decoration: underline;
+    color: #787FF6;
+}

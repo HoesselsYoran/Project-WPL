@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, verdana, sans-serif;
+}
+.verticalelijn{
+    border-left: 6px solid black;
+    height: 100%;
+    padding-top: 135px;
+    position: absolute;
+    left: 20%;
+}
+
+.positieRechts{
+    left: 30%;
+    position: relative;
+}
+
+p {
+    left: 30%;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header{
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    background-color: #5765b7;
+    margin: 0 7.5%;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 5px;
+}
+header h1{
+    font-size: 80px;
+    color: #fff;
+}
+main h1 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+body{
+    margin: 0 auto;
+    background-color: #4c8d9a;
+    max-width: 100%;
+}
+main p,h2{
+    width: 30%;
+    margin: 0;
+}
+span h1{
+    bottom: 0;
+}
+span a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #D5D7FF;
+    font-size: 32px;
+    width: 220px;
+    height: 110px;
+    border: 1px solid #787FF6;
+    background-color: #787FF6;
+    border-radius: 25px;
+}
+span a:hover{
+    border: 1px solid #D5D7FF;
+    background-color: #D5D7FF;
+    color: #787FF6;
+}
+span{
+    margin-left: 10px;
+}
+.witruimte{
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+div p{
+    padding: 10px;
+}

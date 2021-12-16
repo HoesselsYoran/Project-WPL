@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto, verdana, sans-serif;
+    background-color: #2D2D2D;
+}
+
+/* Header Opmaak */
+header{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    padding-top: 2.1%;
+    left: 1.2%;
+    bottom: 0;
+    width: 300px;
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+    background-color: #4c8d9a;
+}
+header img#profiel_foto {
+    width: 250px;
+    height: 250px;
+}
+header section#persoonlijke_informatie {
+    padding-top: 4.2%;
+}
+header section div{
+    padding-top: 5%;
+}
+header section div p{
+    padding-top: 2.1%;
+}
+header section div h3{
+    font-size: 16px;
+}
+
+/* Terug knop */
+header section nav{
+    position: absolute;
+    bottom: 5%;
+    left: 7.5%;
+}
+header section nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+header section nav ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #787FF6;
+    color: #D5D7FF;
+    border-radius: 15px;
+    background-color: #787FF6;
+}
+header section nav ul li a:hover{
+    color:#787FF6;
+    background-color: #d5d7ff;
+    border-color: #d5d7ff;
+}
+
+/* Main Opmaak */
+main{
+    position: absolute;
+    left: 345px;
+    padding-left: 4.2%;
+    padding-right: 4.2%;
+    float: left;
+    width: 81%;
+    height: 100%;
+    background-color: #4c8d9a;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+main h1{
+    display: flex;
+    text-align: center;
+    font-size: 50px ;
+    background-color: #5765b7;
+    color: #fff;
+    margin-bottom: 3%;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+main section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section article{
+    width: 49%;
+}
+main section article div{
+    padding-bottom: 10% ;
+}
+main section article div h3{
+    padding-top: 2%;
+}
+main section article div h2{
+    border-top: 2px solid #000;
+    padding-top: 5%;
+    text-align: center;
+}
+main section article div#items_links{
+    border-right: 5px solid #1ac7ec;
+}
