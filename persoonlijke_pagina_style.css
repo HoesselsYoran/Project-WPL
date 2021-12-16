@@ -32,57 +32,90 @@ main {
     background-color: #4C8D9A;
 }
 
-main article#over_mij {
+main article {
     height: 100%;
+    padding: 15px;
     border-bottom: 2px solid #1ac7ec;
 }
 
-main article#over_mij img {
-    position: relative;
-    width: 150px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
+main article p {
+    padding: 6px 0 6px 0;
 }
 
-main article#over_mij h2{
-    position: relative;
-    padding: 15px 15px 0 15px;
-}
-main article#over_mij p{
-    position: relative;
-    padding: 15px 15px 15px 15px;
-}
-
-main article#hobbies {
-    height: 100%;
-    padding: 15px;
-}
-main article#hobbies p {
-    padding: 6px 0 6px 0px;
-}
-
-main article#hobbies ul {
+main article ul {
     padding: 10px 0 10px 21px;
 }
 
-/* Opmaak Footer */
+main article h2, h3 {
+    padding-bottom: 5px;
+}
+
+main article#over_mij img {
+    width: 150px;
+}
+main article#muziek p{
+    padding-bottom: 10px;
+}
+main article#muziek div#nieuwste {
+    height: 150px;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main article#muziek div#nieuwste iframe {
+    width: 100%;
+    height: 100%;
+}
+
+main article#muziek div#favorietste {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+main article#muziek div#favorietste iframe {
+    width: 33%;
+    height: 150px;
+}
+
+main article#huisdier div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+main article#huisdier div img {
+    width: 32%;
+}
+
+/* Opmaak navbar */
 footer {
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 200px;
+    left: 200px;
 }
 
 footer nav {
-    padding: 16px;
+    text-align: center;
+    background-color: #5765b7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
 }
-
+footer nav p{
+    color: #fff;
+}
 footer nav ul {
     list-style-type: none;
 }
-footer nav ul li{
+
+footer nav ul li {
     margin: 10%;
+    display: flex;
 }
+
 footer nav ul li a {
     display: flex;
     font-size: 16px;
@@ -94,12 +127,23 @@ footer nav ul li a {
     border-radius: 15px;
     width: 200px;
 }
-@media screen and (max-width: 1100px){
-    footer{
+
+@media screen and (max-width: 1650px) {
+    footer {
+        left: 30;
+    }
+}
+@media screen and (max-width: 1550px) {
+    footer {
         left: 0;
     }
-    footer nav ul li a {
-        width: 75px;
+}
+@media screen and (max-width: 900px) {
+    footer {
+        left: 0;
+    }
+    footer nav {
+        width: 95px;
     }
 }
 footer nav ul li a:hover {
